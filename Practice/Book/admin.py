@@ -25,3 +25,5 @@ class StudentAdmin(admin.ModelAdmin):
     def get_courses(self, obj):
         return ", ".join([course.name for course in obj.courses.all()])
     get_courses.short_description = 'Courses'
+
+    
