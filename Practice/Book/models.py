@@ -29,7 +29,6 @@ class Book(models.Model):
         return self.title
     
 
-
 class Course(models.Model):
     name = models.CharField(max_length=100)
 
